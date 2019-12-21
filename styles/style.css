@@ -295,21 +295,6 @@ blockquote::after {
     }
 }
 
-@media screen and (max-width: 1100px){
-    .body {
-        display: block;
-    }
-    .main {
-        width: 100%;
-    }
-    .sidebar {
-        width: 100%;
-    }
-    .main .container {
-        overflow: hidden;
-    }
-}
-
 @media screen and (max-width: 740px) {
     .container {
         padding: 0 20px;
@@ -346,5 +331,20 @@ blockquote::after {
         display: inline-block;
         white-space: nowrap;
         margin: 0 20px 5px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .body {
+        display: block;
+    }
+    .main {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .main .container {
+        overflow: hidden;
     }
 }

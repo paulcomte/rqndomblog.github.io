@@ -157,24 +157,9 @@ body, html {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 180px) {
     .about {
-        margin-top: 200%;
-    }
-    .column {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 310px) {
-    .about {
-        margin-top: 225%
-    }
-}
-
-@media screen and (max-width: 270px) {
-    .about {
-        margin-top: 250%;
+        margin-top: 350%;
     }
 }
 
@@ -185,9 +170,24 @@ body, html {
 
 }
 
-@media screen and (max-width: 180px) {
+@media screen and (max-width: 270px) {
     .about {
-        margin-top: 350%;
+        margin-top: 250%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .about {
+        margin-top: 225%
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .about {
+        margin-top: 200%;
+    }
+    .column {
+        width: 100%;
     }
 }
 

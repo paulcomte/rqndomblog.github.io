@@ -252,7 +252,7 @@ blockquote {
 }
 
 blockquote::before {
-    content:'🙶';
+    content:'❝';
     position: absolute;
     top: 5px;
     left: 5px;
@@ -263,7 +263,7 @@ blockquote::before {
 
 blockquote::after {
     z-index: 9;
-    content:'🙶';
+    content:'❝';
     position: absolute;
     bottom: -26px;
     right: 5px;
@@ -345,20 +345,75 @@ blockquote::after {
     }
 }
 
-@media screen and (max-width: 1450px) {
-    .banner-advertisement {
-        width: 130%;
-}
-
-@media screen and (max-width: 1400px) {
-    .banner-advertisement {
-        width: 120%;
+@media screen and (max-width: 200px) {
+    .leftbar {
+        margin-left: -25%;
     }
 }
 
-@media screen and (max-width: 1345px) {
-    .banner-advertisement {
-        width: 110%;
+@media screen and (max-width: 215px) {
+    .leftbar {
+        margin-left: -15%;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .leftbar {
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .leftbar {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .leftbar {
+        margin-left: 19%
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .leftbar {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .topbar {
+        position: absolute;
+    }
+
+    .topbar nav, .social {
+        float: none;
+        text-align: center;
+    }
+
+    .topbar nav {
+        margin-bottom: 15px;
+    }
+
+    .topbar nav a {
+        display: inline-block;
+        white-space: nowrap;
+        margin: 0 20px 5px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .body {
+        display: block;
+    }
+    .main {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .main .container {
+        overflow: hidden;
     }
 }
 
@@ -388,76 +443,20 @@ blockquote::after {
     }
 }
 
-@media screen and (max-width: 1100px){
-    .body {
-        display: block;
-    }
-    .main {
-        width: 100%;
-    }
-    .sidebar {
-        width: 100%;
-    }
-    .main .container {
-        overflow: hidden;
+@media screen and (max-width: 1345px) {
+    .banner-advertisement {
+        width: 110%;
     }
 }
 
-@media screen and (max-width: 860px) {
-    .topbar {
-        position: absolute;
-    }
-
-    .topbar nav, .social {
-        float: none;
-        text-align: center;
-    }
-
-    .topbar nav {
-        margin-bottom: 15px;
-    }
-
-    .topbar nav a {
-        display: inline-block;
-        white-space: nowrap;
-        margin: 0 20px 5px 20px;
+@media screen and (max-width: 1400px) {
+    .banner-advertisement {
+        width: 120%;
     }
 }
 
-@media screen and (max-width: 620px) {
-    .leftbar {
-        margin-left: 25%;
-    }
-}
-
-@media screen and (max-width: 485px) {
-    .leftbar {
-        margin-left: 19%
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .leftbar {
-        margin-left: 10%;
-    }
-}
-
-@media screen and (max-width: 285px) {
-    .leftbar {
-        margin-left: -10%;
-    }
-}
-
-}
-
-@media screen and (max-width: 215px) {
-    .leftbar {
-        margin-left: -15%;
-    }
-}
-
-@media screen and (max-width: 200px) {
-    .leftbar {
-        margin-left: -25%;
+@media screen and (max-width: 1450px) {
+    .banner-advertisement {
+        width: 130%;
     }
 }
