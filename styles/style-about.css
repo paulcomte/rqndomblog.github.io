@@ -1,11 +1,15 @@
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 body { 
     background: url("../images/landscape.jpg") no-repeat center center fixed;
-    background-size: cover;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
   }
 
 body, html {
@@ -26,7 +30,8 @@ body, html {
     padding: 30px;
     background-color: rgba(255, 255, 255, .93);
     -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
+            -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
+         box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
     z-index: 3;
 }
 
@@ -72,7 +77,9 @@ body, html {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
   padding: 30px;
@@ -82,20 +89,25 @@ body, html {
 
 .card {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
+    -moz-transition: 0.3s;
     transition: 0.3s;
   }
 
 
 .row img{
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
 
 .card:hover {
     -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+            -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
   }
   
 .container {
@@ -105,7 +117,7 @@ body, html {
 .column {
     float: left;
     width: 25%;
-  }
+}
   
 .row:after {
     content: "";
@@ -182,106 +194,11 @@ body, html {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1000px) {
     .about {
         margin-top: 200%;
     }
     .column {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 950px) and (min-height: 1050px) {
-    .about {
-        position: relative;
-    }
-    
-    .card {
-        margin-bottom: 30px;
-    }
-
-    .cardfirst {
-        margin-top: 100px;
-    }
-
-    .about h1 {
-        position: relative;
-    }
-
-    .topbar {
-        margin-bottom: 40%;
-    }
-}
-
-@media screen and (min-height: 1250px) and (min-width: 1000px) {
-    .column {
-        width: 100%
-    }
-
-    .about {
-        margin-top: 150%;
-    }
-}
-
-@media screen and (min-height: 1400px) and (min-width: 1000px) {
-    .about {
-        margin-top: 130%;
-    }
-}
-
-@media screen and (min-height: 1600px) and (min-width: 1000px) {
-    .about {
-        margin-top: 120%;
-    }
-}
-
-@media screen and (min-height: 1750px) and (min-width: 1000px) {
-    .about {
-        margin-top: 115%;
-    }
-}
-
-@media screen and (min-height: 1900px) and (min-width: 1000px) {
-    .about {
-        margin-top: 110%;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-height: 1330px) {
-    .about {
-        margin-top: -17%;
-    }
-    .landscape {
-        padding-bottom: 140%;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-height: 1230px) {
-    .about {
-        margin-top: -15%;
-    }
-    .landscape {
-        padding-bottom: 130%;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-height: 1150px) {
-    .about {
-        margin-top: -13%;
-    }
-    .landscape {
-        padding-bottom: 116%;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-height: 1080px) {
-    .about {
-        margin-top: -11%;
-    }
-}
-
-@media screen and (max-width: 1000px) and (min-height: 1050px) {
-    .about {
-        margin-top: -10%
     }
 }
