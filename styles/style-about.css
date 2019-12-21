@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+body { 
+    background: url("../images/landscape.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body, html {
     font-size: 16px;
     color: rgba(0, 0, 0, .87);
@@ -49,18 +57,6 @@ body, html {
 
 .social a:hover {
     opacity: 1;
-}
-
-.landscape {
-    background-image: url("../images/landscape.jpg");
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    filter: blur(3px);
 }
 
 .about h1 {
@@ -113,14 +109,23 @@ body, html {
 }
 
 .footer {
-    clear: both;
+    position: absolute;
+    color: white;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
     margin-top: 10px;
+    bottom: 0;
+    right: 44%;
+    text-align: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 950px) {
+    
+    .footer {
+        display: none;
+    }
     
     .about {
         margin-top: 175%;
@@ -172,30 +177,17 @@ body, html {
     .column {
         width: 100%;
     }
-
-    .landscape {
-        height: 100%;
-        padding-bottom: 475%;
-    }
 }
 
 @media screen and (max-width: 310px) {
     .about {
         margin-top: 225%
     }
-
-    .landscape {
-        padding-bottom: 550%;
-    }
 }
 
 @media screen and (max-width: 270px) {
     .about {
         margin-top: 250%;
-    }
-
-    .landscape {
-        padding-bottom: 650%;
     }
 }
 
@@ -204,18 +196,105 @@ body, html {
         margin-top: 300%
     }
 
-    .landscape {
-        padding-bottom: 750%;
-    }
-
 }
 
 @media screen and (max-width: 180px) {
     .about {
         margin-top: 350%;
     }
+}
 
+@media screen and (max-width: 950px) and (min-height: 1050px) {
+    .about {
+        position: relative;
+    }
+    
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .cardfirst {
+        margin-top: 100px;
+    }
+
+    .about h1 {
+        position: relative;
+    }
+
+    .topbar {
+        margin-bottom: 40%;
+    }
+}
+
+@media screen and (min-height: 1250px) and (min-width: 1000px) {
+    .column {
+        width: 100%
+    }
+
+    .about {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (min-height: 1400px) and (min-width: 1000px) {
+    .about {
+        margin-top: 130%;
+    }
+}
+
+@media screen and (min-height: 1600px) and (min-width: 1000px) {
+    .about {
+        margin-top: 120%;
+    }
+}
+
+@media screen and (min-height: 1750px) and (min-width: 1000px) {
+    .about {
+        margin-top: 115%;
+    }
+}
+
+@media screen and (min-height: 1900px) and (min-width: 1000px) {
+    .about {
+        margin-top: 110%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 1330px) {
+    .about {
+        margin-top: -17%;
+    }
     .landscape {
-        padding-bottom: 800%;
+        padding-bottom: 140%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 1230px) {
+    .about {
+        margin-top: -15%;
+    }
+    .landscape {
+        padding-bottom: 130%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 1150px) {
+    .about {
+        margin-top: -13%;
+    }
+    .landscape {
+        padding-bottom: 116%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 1080px) {
+    .about {
+        margin-top: -11%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 1050px) {
+    .about {
+        margin-top: -10%
     }
 }
