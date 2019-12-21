@@ -120,6 +120,13 @@ div, body{
     margin-top: -15px;
 }
 
+.footer {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
 
 .row img{
     -webkit-border-radius: 10px;
@@ -148,17 +155,18 @@ div, body{
     clear: both;
 }  
 @media screen and (max-width: 1100px) {
+
     .card {
         width: auto;
         height: auto;
     }
 
-    .cardfirst div {
-        margin-top: 0;
+    .about {
+        margin-top: 180%;
     }
     
-    .about {
-        margin-top: 175%;
+    .row {
+        margin-bottom: 50px;
     }
 
     .column {
@@ -218,11 +226,680 @@ div, body{
     }
 }
 
-@media screen and (max-width: 1100px) {
+/* Media query with screen with width max of 1100px */
+
+@media screen and (max-height: 2900px) and (max-width: 1100px) {
+    .about {
+        margin-top: 83%;
+    }
+}
+
+@media screen and (max-height: 2455px) and (max-width: 1100px) {
+    .about {
+        margin-top: 96%;
+    }
+}
+
+@media screen and (max-height: 2165px) and (max-width: 1100px) {
+    .about {
+        margin-top: 106%;
+    }
+}
+
+@media screen and (max-height: 1925px) and (max-width: 1100px) {
+    .about {
+        margin-top: 115%;
+    }
+}
+
+@media screen and (max-height: 1725px) and (max-width: 1100px) {
+    .about {
+        margin-top: 126%;
+    }
+}
+
+@media screen and (max-height: 1470px) and (max-width: 1100px) {
+    .about {
+        margin-top: 137%;
+    }
+}
+
+@media screen and (max-height: 1235px) and (max-width: 1100px) {
+    .about {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-height: 940px) and (max-width: 1100px) {
+    .about {
+        margin-top: 164%;
+    }
+}
+
+@media screen and (max-height: 625px) and (max-width: 1100px) {
+    .about {
+        margin-top: 175%;
+    }
+}
+
+@media screen and (max-height: 400px) and (max-width: 1100px) {
+    .about {
+        margin-top: 180%;
+    }
+}
+
+/* Media query with screen with width max of 1050px */
+
+@media screen and (max-height: 2900px) and (max-width: 1050px) {
+    .about {
+        margin-top: 72%;
+    }
+}
+
+@media screen and (max-height: 2565px) and (max-width: 1050px) {
+    .about {
+        margin-top: 89%;
+    }
+}
+
+@media screen and (max-height: 2260px) and (max-width: 1050px) {
+    .about {
+        margin-top: 102%;
+    }
+}
+
+@media screen and (max-height: 1950px) and (max-width: 1050px) {
+    .about {
+        margin-top: 116%;
+    }
+}
+
+@media screen and (max-height: 1655px) and (max-width: 1050px) {
+    .about {
+        margin-top: 128%;
+    }
+}
+
+@media screen and (max-height: 1395px) and (max-width: 1050px) {
+    .about {
+        margin-top: 139%;
+    }
+}
+
+@media screen and (max-height: 1160px) and (max-width: 1050px) {
+    .about {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-height: 955px) and (max-width: 1050px) {
+    .about {
+        margin-top: 167%;
+    }
+}
+
+@media screen and (max-height: 590px) and (max-width: 1050px) {
+    .about {
+        margin-top: 180%;
+    }
+}
+
+@media screen and (max-height: 315px) and (max-width: 1050px) {
+    .about {
+        margin-top: 184%;
+    }
+}
+
+/* Media query with screen with width max of 950px */
+
+@media screen and (max-height: 2900px) and (max-width: 950px) {
+    .about {
+        margin-top: 63%;
+    }
+}
+
+@media screen and (max-height: 2590px) and (max-width: 950px) {
+    .about {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (max-height: 2280px) and (max-width: 950px) {
+    .about {
+        margin-top: 98%;
+    }
+}
+
+@media screen and (max-height: 1930px) and (max-width: 950px) {
+    .about {
+        margin-top: 115%;
+    }
+}
+
+@media screen and (max-height: 1605px) and (max-width: 950px) {
+    .about {
+        margin-top: 128%;
+    }
+}
+
+@media screen and (max-height: 1350px) and (max-width: 950px) {
+    .about {
+        margin-top: 143%;
+    }
+}
+
+@media screen and (max-height: 1030px) and (max-width: 950px) {
+    .about {
+        margin-top: 157%;
+    }
+}
+
+@media screen and (max-height: 800px) and (max-width: 950px) {
+    .about {
+        margin-top: 170%;
+    }
+}
+
+@media screen and (max-height: 550px) and (max-width: 950px) {
+    .about {
+        margin-top: 185%;
+    }
+}
+
+@media screen and (max-height: 270px) and (max-width: 950px) {
+    .about {
+        margin-top: 195%;
+    }
+}
+
+/* Media query with screen with width max of 800px */
+
+@media screen and (max-height: 2900px) and (max-width: 800px) {
+    .about {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-height: 2720px) and (max-width: 800px) {
+    .about {
+        margin-top: 58%;
+    }
+}
+
+@media screen and (max-height: 2410px) and (max-width: 800px) {
+    .about {
+        margin-top: 72%;
+    }
+}
+
+@media screen and (max-height: 2185px) and (max-width: 800px) {
+    .about {
+        margin-top: 90%;
+    }
+}
+
+@media screen and (max-height: 1910px) and (max-width: 800px) {
+    .about {
+        margin-top: 108%;
+    }
+}
+
+@media screen and (max-height: 1635px) and (max-width: 800px) {
+    .about {
+        margin-top: 123%;
+    }
+}
+
+@media screen and (max-height: 1380px) and (max-width: 800px) {
+    .about {
+        margin-top: 140%;
+    }
+}
+
+@media screen and (max-height: 1110px) and (max-width: 800px) {
+    .about {
+        margin-top: 160%;
+    }
+}
+
+@media screen and (max-height: 805px) and (max-width: 800px) {
+    .about {
+        margin-top: 175%;
+    }
+}
+
+@media screen and (max-height: 590px) and (max-width: 800px) {
+    .about {
+        margin-top: 190%;
+    }
+}
+
+@media screen and (max-height: 340px) and (max-width: 800px) {
     .about {
         margin-top: 200%;
     }
-    .column {
-        width: 100%;
+}
+
+/* Media query with screen with width max of 725px */
+
+@media screen and (max-height: 2900px) and (max-width: 725px) {
+    .about {
+        margin-top: 25%;
     }
 }
+
+@media screen and (max-height: 2760px) and (max-width: 725px) {
+    .about {
+        margin-top: 38%;
+    }
+}
+
+@media screen and (max-height: 2545px) and (max-width: 725px) {
+    .about {
+        margin-top: 48%;
+    }
+}
+
+@media screen and (max-height: 2405px) and (max-width: 725px) {
+    .about {
+        margin-top: 63%;
+    }
+}
+
+@media screen and (max-height: 2210px) and (max-width: 725px) {
+    .about {
+        margin-top: 77%;
+    }
+}
+
+@media screen and (max-height: 1980px) and (max-width: 725px) {
+    .about {
+        margin-top: 89%;
+    }
+}
+
+@media screen and (max-height: 1830px) and (max-width: 725px) {
+    .about {
+        margin-top: 103%;
+    }
+}
+
+@media screen and (max-height: 1625px) and (max-width: 725px) {
+    .about {
+        margin-top: 116%;
+    }
+}
+
+@media screen and (max-height: 1430px) and (max-width: 725px) {
+    .about {
+        margin-top: 133%;
+    }
+}
+
+@media screen and (max-height: 1170px) and (max-width: 725px) {
+    .about {
+        margin-top: 147%;
+    }
+}
+
+@media screen and (max-height: 970px) and (max-width: 725px) {
+    .about {
+        margin-top: 160%;
+    }
+}
+
+@media screen and (max-height: 790px) and (max-width: 725px) {
+    .about {
+        margin-top: 176%;
+    }
+}
+
+@media screen and (max-height: 565px) and (max-width: 725px) {
+    .about {
+        margin-top: 186%;
+    }
+}
+
+@media screen and (max-height: 395px) and (max-width: 725px) {
+    .about {
+        margin-top: 190%;
+    }
+}
+
+/* Media query with screen with width max of 560px */
+
+@media screen and (max-height: 2900px) and (max-width: 560px) {
+    .about {
+        margin-top: -15%;
+    }
+}
+
+@media screen and (max-height: 2760px) and (max-width: 560px) {
+    .about {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-height: 2600px) and (max-width: 560px) {
+    .about {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-height: 2430px) and (max-width: 560px) {
+    .about {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-height: 2250px) and (max-width: 560px) {
+    .about {
+        margin-top: 45%;
+    }
+}
+
+@media screen and (max-height: 2060px) and (max-width: 560px) {
+    .about {
+        margin-top: 70%;
+    }
+}
+
+@media screen and (max-height: 1765px) and (max-width: 560px) {
+    .about {
+        margin-top: 86%;
+    }
+}
+
+@media screen and (max-height: 1610px) and (max-width: 560px) {
+    .about {
+        margin-top: 101%;
+    }
+}
+
+@media screen and (max-height: 1440px) and (max-width: 560px) {
+    .about {
+        margin-top: 117%;
+    }
+}
+
+@media screen and (max-height: 1250px) and (max-width: 560px) {
+    .about {
+        margin-top: 137%;
+    }
+}
+
+@media screen and (max-height: 1070px) and (max-width: 560px) {
+    .about {
+        margin-top: 151%;
+    }
+}
+
+@media screen and (max-height: 890px) and (max-width: 560px) {
+    .about {
+        margin-top: 169%;
+    }
+}
+
+@media screen and (max-height: 685px) and (max-width: 560px) {
+    .about {
+        margin-top: 184%;
+    }
+}
+
+@media screen and (max-height: 520px) and (max-width: 560px) {
+    .about {
+        margin-top: 199%;
+    }
+}
+
+@media screen and (max-height: 370px) and (max-width: 560px) {
+    .about {
+        margin-top: 210%;
+    }
+}
+
+/* Media query for screen with width max of 425px */
+
+@media screen and (max-height: 2900px) and (max-width: 425px) {
+    .about {
+        margin-top: -52%;
+    }
+}
+
+@media screen and (max-height: 2730px) and (max-width: 425px) {
+    .about {
+        margin-top: -30%;
+    }
+}
+
+@media screen and (max-height: 2560px) and (max-width: 425px) {
+    .about {
+        margin-top: -16%;
+    }
+}
+
+@media screen and (max-height: 2415px) and (max-width: 425px) {
+    .about {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-height: 2265px) and (max-width: 425px) {
+    .about {
+        margin-top: 16%;
+    }
+}
+
+@media screen and (max-height: 2135px) and (max-width: 425px) {
+    .about {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-height: 2010px) and (max-width: 425px) {
+    .about {
+        margin-top: 53%;
+    }
+}
+
+@media screen and (max-height: 1850px) and (max-width: 425px) {
+    .about {
+        margin-top: 70%;
+    }
+}
+
+@media screen and (max-height: 1695px) and (max-width: 425px) {
+    .about {
+        margin-top: 89%;
+    }
+}
+
+@media screen and (max-height: 1520px) and (max-width: 425px) {
+    .about {
+        margin-top: 102%;
+    }
+}
+
+@media screen and (max-height: 1410px) and (max-width: 425px) {
+    .about {
+        margin-top: 117%;
+    }
+}
+
+@media screen and (max-height: 1285px) and (max-width: 425px) {
+    .about {
+        margin-top: 134%;
+    }
+}
+
+@media screen and (max-height: 1135px) and (max-width: 425px) {
+    .about {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-height: 995px) and (max-width: 425px) {
+    .about {
+        margin-top: 170%;
+    }
+}
+
+@media screen and (max-height: 825px) and (max-width: 425px) {
+    .about {
+        margin-top: 190%;
+    }
+}
+
+@media screen and (max-height: 650px) and (max-width: 425px) {
+    .about {
+        margin-top: 210%;
+    }
+}
+
+@media screen and (max-height: 495px) and (max-width: 425px) {
+    .about {
+        margin-top: 230%;
+    }
+}
+
+@media screen and (max-height: 345px) and (max-width: 425px) {
+    .about {
+        margin-top: 231%;
+    }
+}
+
+/* Media query for screen with width max of 350px */
+
+@media screen and (max-height: 2900px) and (max-width: 350px) {
+    .about {
+        margin-top: -100%;
+    }
+}
+
+@media screen and (max-height: 2730px) and (max-width: 350px) {
+    .about {
+        margin-top: -80%;
+    }
+}
+
+@media screen and (max-height: 2595px) and (max-width: 350px) {
+    .about {
+        margin-top: -57%;
+    }
+}
+
+@media screen and (max-height: 2435px) and (max-width: 350px) {
+    .about {
+        margin-top: -32%;
+    }
+}
+
+@media screen and (max-height: 2380px) and (max-width: 350px) {
+    .about {
+        margin-top: -30%;
+    }
+}
+
+
+@media screen and (max-height: 2230px) and (max-width: 350px) {
+    .about {
+        margin-top: -9%;
+    }
+}
+
+@media screen and (max-height: 2105px) and (max-width: 350px) {
+    .about {
+        margin-top: 9%;
+    }
+}
+
+@media screen and (max-height: 2000px) and (max-width: 350px) {
+    .about {
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-height: 1875px) and (max-width: 350px) {
+    .about {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-height: 1750px) and (max-width: 350px) {
+    .about {
+        margin-top: 73%;
+    }
+}
+
+@media screen and (max-height: 1535px) and (max-width: 350px) {
+    .about {
+        margin-top: 91%;
+    }
+}
+
+@media screen and (max-height: 1425px) and (max-width: 350px) {
+    .about {
+        margin-top: 108%;
+    }
+}
+
+@media screen and (max-height: 1275px) and (max-width: 350px) {
+    .about {
+        margin-top: 126%;
+    }
+}
+
+@media screen and (max-height: 1150px) and (max-width: 350px) {
+    .about {
+        margin-top: 143%;
+    }
+}
+
+@media screen and (max-height: 1115px) and (max-width: 350px) {
+    .about {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-height: 955px) and (max-width: 350px) {
+    .about {
+        margin-top: 165%;
+    }
+}
+
+@media screen and (max-height: 870px) and (max-width: 350px) {
+    .about {
+        margin-top: 180%;
+    }
+}
+
+@media screen and (max-height: 785px) and (max-width: 350px) {
+    .about {
+        margin-top: 195%;
+    }
+}
+
+@media screen and (max-height: 660px) and (max-width: 350px) {
+    .about {
+        margin-top: 206%;
+    }
+}
+
+@media screen and (max-height: 585px) and (max-width: 350px) {
+    .about {
+        margin-top: 221%;
+    }
+}
+
+@media screen and (max-height: 480px) and (max-width: 350px) {
+    .about {
+        margin-top: 238%;
+    }
+}
+
+@media screen and (max-height: 400px) and (max-width: 350px) {
+    .about {
+        margin-top: 249%;
+    }
+}
+ 
