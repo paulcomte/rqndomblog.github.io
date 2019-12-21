@@ -109,6 +109,7 @@ body {
 
   .notfound .notfound-404 h1 {
     font-size: 142px;
+    position: absolute;
   }
 
   .notfound h2 {
