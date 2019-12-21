@@ -132,8 +132,7 @@ body, html {
     }
 
     .topbar {
-        position: static;
-        background: white;
+        position: absolute;
     }
 
     .topbar nav, .social {
