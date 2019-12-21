@@ -15,6 +15,7 @@ body, html {
 }
 
 .topbar {
+    font-family: exo, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -50,7 +51,7 @@ body, html {
 .social a {
     padding: 0 12px;
     opacity: .5;
-}²
+}
 
 .social a:hover {
     opacity: 1;
@@ -67,6 +68,13 @@ body, html {
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
+}
+
+div, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .main {

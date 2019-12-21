@@ -4,13 +4,19 @@
          box-sizing: border-box;
 }
 
-html { 
-    background: url("../images/landscape.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+html, body{
+    height: 100%;
   }
+
+
+body { 
+        background-image: url(../images/landscape.jpg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size:  cover;
+        background-color: #999;
+}
 
 body, html {
     font-size: 16px;
@@ -19,6 +25,7 @@ body, html {
     line-height: 1.6;
     margin: 0;
     font-weight: 500;
+    height: 100%;
 }
 
 .topbar {
@@ -60,10 +67,20 @@ body, html {
     opacity: 1;
 }
 
+div, body{
+    margin: 0;
+    padding: 0;
+    font-family: exo, sans-serif;
+
+}
+.wrapper {
+    height: 100%; 
+    width: 100%; 
+}
+
 .about h1 {
     text-transform: uppercase;
 }
-
 
 .about {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -94,6 +111,15 @@ body, html {
     transition: 0.3s;
   }
 
+.card {
+    width: 205px;
+    height: 326px;
+}
+
+.cardfirst div {
+    margin-top: -15px;
+}
+
 
 .row img{
     -webkit-border-radius: 10px;
@@ -120,9 +146,17 @@ body, html {
     content: "";
     display: table;
     clear: both;
-}
+}  
+@media screen and (max-width: 1100px) {
+    .card {
+        width: auto;
+        height: auto;
+    }
 
-@media screen and (max-width: 1100px) {    
+    .cardfirst div {
+        margin-top: 0;
+    }
+    
     .about {
         margin-top: 175%;
     }
@@ -149,12 +183,11 @@ body, html {
         white-space: nowrap;
         margin: 0 20px 5px 20px;
     }
-    .body {
-        display: block;
-    }
+
     .main {
         width: 100%;
     }
+
     .main .container {
         overflow: hidden;
     }
