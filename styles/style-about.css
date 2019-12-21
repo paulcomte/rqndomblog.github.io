@@ -28,10 +28,7 @@ body, html {
     right: 0;
     width: 100%;
     padding: 30px;
-    background-color: rgba(255, 255, 255, .93);
-    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
-            -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
-         box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
+    background-color: white;
     z-index: 3;
 }
 
@@ -132,11 +129,6 @@ body, html {
 
     .column {
         width: 100%;
-    }
-
-    .landscape {
-        height: 100%;
-        padding-bottom: 475%;
     }
 
     .topbar {
