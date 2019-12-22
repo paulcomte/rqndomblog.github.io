@@ -142,7 +142,7 @@ div, body{
     margin-right: 25px;
     z-index: 3;
     padding-right: 10px;
-	background: no-repeat center center / cover url("../images/pub.jpg");
+	background: no-repeat center center / cover;
 	height: 600px;
 }
 
