@@ -307,6 +307,11 @@ blockquote::after {
     font-weight: bold;
 }
 
+#sidebar-none li a::after {
+    float: none;
+    background: none;
+    content: none;
+}
 
 .article-img img{
     width: 100%;
@@ -337,6 +342,54 @@ blockquote::after {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.quote {
+    text-align: right;
+    margin-right: 13%;
+    font-style: italic;
+    font-size: 14px;
+}
+
+cap {
+    text-transform: capitalize;
+}
+
+.sources {
+    margin-top: 50px;
+    justify-content: center;
+    font-weight: 100;
+    line-height: .23rem;
+    text-align: left;
+}
+
+.sources-title {
+    text-decoration: underline;
+    color: black;
+}
+
+.reference a{
+    font: 12px;
+    color: #0645ad;
+    white-space: nowrap;
+}
+
+.reference a:visited {
+    color: #0b0080;
+}
+
+.graphic-artist a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.graphic-artist a:hover {
+    text-decoration: underline;
+}
+
+.sources p {
+    color: blue;
+}
+
 
 .article-img {
     -webkit-transition: .5s;

@@ -250,6 +250,12 @@ blockquote::after {
     font-weight: bold;
 }
 
+#sidebar-none li a::after {
+    float: none;
+    background: none;
+    content: none;
+}
+
 
 .article-img img{
     width: 100%;
