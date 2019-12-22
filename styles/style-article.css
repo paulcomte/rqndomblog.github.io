@@ -275,7 +275,7 @@ blockquote {
 blockquote::before {
     content:'❝';
     position: absolute;
-    top: 5px;
+    top: -1.5px;
     left: 5px;
     font-size: 60px;
     line-height: 1.4rem;
@@ -356,7 +356,11 @@ cap {
 
 .sources {
     margin-top: 50px;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-weight: 100;
     line-height: .23rem;
     text-align: left;

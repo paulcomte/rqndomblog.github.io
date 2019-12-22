@@ -204,6 +204,7 @@ div, body{
 .article-title::after {
     content:'';
     display: block;
+    margin-top: 2px;
     width: 100px;
     height: 4px;
     background: black;
