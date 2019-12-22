@@ -238,7 +238,7 @@ blockquote::before {
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
@@ -369,12 +369,18 @@ blockquote::before {
 
 @media screen and (max-width: 1100px) {
 
+    .sidebar li a::after {
+        width: 3.5vw;
+        height: 3.5vw;
+        font-size: 2vw;
+    }
+
     .sidebar-title {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .sidebar li {
-        font-size: 3.7vw;
+        font-size: 4vw;
     }
 
     body, html {
@@ -382,10 +388,9 @@ blockquote::before {
     }
     
     .topbar {
-        font-size: 5vw;
+        font-size: 6.5vw;
         position: absolute;
     }
-
 
     .social img {
         width: 5.5vw;

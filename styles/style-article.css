@@ -149,7 +149,7 @@ div, body{
 .sidebar {
     width: 375px;
     padding: 40px;
-    font-size: 17px;
+    font-size: 1.4vw;
     position: relative;
     background: #FBFBFB;
     z-index: 1;
@@ -303,7 +303,7 @@ blockquote::after {
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    font-size: 1rem;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
@@ -561,20 +561,15 @@ cap {
         display: block;
         width: 100%;
     }
-
-    h1.news{
-        font-size: 5vw;
-        padding-right: 20vw;
-    }
 }
 
 @media screen and (max-width: 1100px) {
     .sidebar-title {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .sidebar li {
-        font-size: 3.7vw;
+        font-size: 4vw;
     }
 
     body, html {
@@ -582,7 +577,7 @@ cap {
     }
     
     .topbar {
-        font-size: 5vw;
+        font-size: 6.5vw;
         position: absolute;
     }
 
