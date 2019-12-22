@@ -14,7 +14,10 @@ body {
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
-        background-size:  cover;
+        -webkit-background-size:  cover;
+           -moz-background-size:  cover;
+             -o-background-size:  cover;
+                background-size:  cover;
         background-color: #999;
 }
 
@@ -120,14 +123,6 @@ div, body{
     margin-top: -15px;
 }
 
-.footer {
-    bottom: 0;
-    position: absolute;
-    padding-bottom: 40px;
-    margin-bottom: 100px;
-}
-
-
 .row img{
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
@@ -155,6 +150,10 @@ div, body{
     clear: both;
 }  
 @media screen and (max-width: 1100px) {
+
+    .last-card {
+        padding-bottom: 2%;
+    }
 
     .card {
         width: auto;

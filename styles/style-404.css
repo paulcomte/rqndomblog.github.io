@@ -1,6 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 body {
@@ -19,7 +20,9 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
 }
 
 .notfound {
@@ -42,10 +45,15 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
   font-size: 186px;
   font-weight: 200;
   margin: 0px;
+  background: -webkit-linear-gradient(320deg, #ffa34f, #ff6f68);
+  background: -moz-linear-gradient(320deg, #ffa34f, #ff6f68);
+  background: -o-linear-gradient(320deg, #ffa34f, #ff6f68);
   background: linear-gradient(130deg, #ffa34f, #ff6f68);
   color:transparent;
   -webkit-background-clip: text;
@@ -79,7 +87,9 @@ body {
   font-weight: 200;
   text-decoration: none;
   border-bottom: 1px dashed #ff6f68;
-  border-radius: 2px;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
 }
 
 .notfound-social>a {
@@ -90,9 +100,13 @@ body {
   font-size: 14px;
   color: #ff6f68;
   border: 1px solid #efefef;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
   margin: 3px;
   -webkit-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  -moz-transition: 0.2s all;
   transition: 0.2s all;
 }
 .notfound-social>a:hover {
