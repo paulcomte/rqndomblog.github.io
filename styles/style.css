@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-size: 2.2vh;
+    font-size: 1.3vw;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -91,7 +91,7 @@ div, body{
 .sidebar {
     width: 375px;
     padding: 40px;
-    font-size: 17px;
+    font-size: 1.4vw;
     position: relative;
     background: #FBFBFB;
     z-index: 1;
@@ -162,9 +162,10 @@ div, body{
 
 .news {
     text-align: center;
-    margin-left: 15rem;
+    margin-left: 20vw;
     font-weight: bold;
     text-decoration: underline;
+    padding-right: 15vw;
 }
 
 .article a {
@@ -226,16 +227,6 @@ blockquote::before {
     z-index: 9;
 }
 
-blockquote::after {
-    z-index: 9;
-    content:'🙶';
-    position: absolute;
-    bottom: -26px;
-    right: 5px;
-    font-size: 60px;
-    line-height: 1.4rem;
-}
-
 .sidebar li a::after {
     content: attr(data-count);
     float: right;
@@ -247,7 +238,7 @@ blockquote::after {
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
@@ -352,6 +343,10 @@ blockquote::after {
 }
 
 @media screen and (max-width: 1100px) {
+    .banner {
+        padding-top: 70vw;
+    }
+
     .container {
         padding: 0 20px;
     }
@@ -365,19 +360,36 @@ blockquote::after {
         display: block;
         width: 100%;
     }
-    .news {
-        margin-left: 10%;
+
+    h1.news{
+        font-size: 5vw;
+        padding-right: 20vw;
     }
 }
 
 @media screen and (max-width: 1100px) {
+
+    .sidebar-title {
+        font-size: 5vw;
+    }
+
+    .sidebar li {
+        font-size: 3.7vw;
+    }
+
     body, html {
-        font-size: 3vh;
+        font-size: 3.3vw;
     }
     
     .topbar {
-        font-size: 5vh;
+        font-size: 5vw;
         position: absolute;
+    }
+
+
+    .social img {
+        width: 5.5vw;
+        height: auto;
     }
 
     .topbar nav, .social {

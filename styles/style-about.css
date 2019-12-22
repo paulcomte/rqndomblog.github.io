@@ -22,7 +22,7 @@ body {
 }
 
 body, html {
-    font-size: 2.2vh;
+    font-size: 1.3vw;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -177,12 +177,17 @@ div, body{
     }
 
     body, html {
-        font-size: 3vh;
+        font-size: 3.3vw;
     }
     
     .topbar {
-        font-size: 5vh;
+        font-size: 5vw;
         position: absolute;
+    }
+
+    .social img {
+        width: 5.5vw;
+        height: auto;
     }
 
     .topbar nav, .social {

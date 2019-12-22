@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-size: 2.2vh;
+    font-size: 1.3vw;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -544,13 +544,51 @@ cap {
 }
 
 @media screen and (max-width: 1100px) {
+    .banner {
+        padding-top: 70vw;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+    .article {
+        padding-left: 0;
+        padding-bottom: 5%;
+    }
+    .article-img {
+        position: static;
+        margin-bottom: 1rem;
+        display: block;
+        width: 100%;
+    }
+
+    h1.news{
+        font-size: 5vw;
+        padding-right: 20vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .sidebar-title {
+        font-size: 5vw;
+    }
+
+    .sidebar li {
+        font-size: 3.7vw;
+    }
+
     body, html {
-        font-size: 3vh;
+        font-size: 3.3vw;
     }
     
     .topbar {
-        font-size: 5vh;
+        font-size: 5vw;
         position: absolute;
+    }
+
+    .social img {
+        width: 5.5vw;
+        height: auto;
     }
 
     .topbar nav, .social {
@@ -566,10 +604,6 @@ cap {
         display: inline-block;
         white-space: nowrap;
         margin: 0 20px 5px 20px;
-    }
-    .banner {
-        width: auto;
-        height: 600px;
     }
 }
 
