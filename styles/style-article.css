@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-size: 16px;
+    font-size: 2.2vh;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -543,8 +543,13 @@ cap {
     }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1100px) {
+    body, html {
+        font-size: 3vh;
+    }
+    
     .topbar {
+        font-size: 5vh;
         position: absolute;
     }
 
@@ -561,6 +566,10 @@ cap {
         display: inline-block;
         white-space: nowrap;
         margin: 0 20px 5px 20px;
+    }
+    .banner {
+        width: auto;
+        height: 600px;
     }
 }
 

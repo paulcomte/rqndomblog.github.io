@@ -22,7 +22,7 @@ body {
 }
 
 body, html {
-    font-size: 16px;
+    font-size: 2.2vh;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -123,6 +123,10 @@ div, body{
     margin-top: -15px;
 }
 
+.cardsecond div {
+    margin-top: -15px;
+}
+
 .row img{
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
@@ -172,7 +176,12 @@ div, body{
         width: 100%;
     }
 
+    body, html {
+        font-size: 3vh;
+    }
+    
     .topbar {
+        font-size: 5vh;
         position: absolute;
     }
 
