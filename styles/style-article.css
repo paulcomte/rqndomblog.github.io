@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -116,7 +116,7 @@ div, body{
 }
 
 .credits {
-    left: 24%;
+    left: 18%;
 	text-align: center;
 	width: 280px;
 	padding: 10px;
@@ -271,6 +271,10 @@ div, body{
     background: black;
 }
 
+.credits-mobile {
+    display: none;
+}
+
 blockquote {
     background: rgba(0, 0, 0, .1);
     padding: 10px;  
@@ -406,6 +410,14 @@ cap {
     -o-transition: .5s;
     -moz-transition: .5s;
     transition: .5s
+}
+
+#made-span {
+    font-size: 1.17vw;
+}
+
+#question-blog {
+    font-size: 2vw;
 }
 
 .article-img:hover {
@@ -711,9 +723,22 @@ cap {
     }
 
     .credits {
-        display: block;
-        left: 0;
+        display: none;
     }
+
+    .credits-mobile {        
+        text-align: left;
+        display: block;
+        line-height: 1.7vw;
+    }
+
+    .credits-mobile .credits-title {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 3vw;
+    }
+
     .leftbar {
         margin-left: 30vw;
         float: none;
@@ -739,10 +764,6 @@ cap {
     }
     .banner-advertisement {
         display: none;
-    }
-    .credits {
-        display: block;
-
     }
 }
 
@@ -790,10 +811,18 @@ cap {
         font-size: 4vw;
     }
 
+    #question-blog {
+        font-size: 4.2vw;
+    }
+
     body, html {
         font-size: 3.1vw;
     }
     
+    #made-span {
+        font-size: 2.3vw;
+    }
+
     .topbar {
         font-size: 5.8vw;
         position: absolute;

@@ -291,6 +291,10 @@ blockquote::before {
     transition: .5s
 }
 
+.article {
+    margin-left: -5%;
+}
+
 .article-img:hover {
     -webkit-transform: scale(1.1) rotate(10deg);
         -ms-transform: scale(1.1) rotate(10deg);
@@ -351,7 +355,12 @@ blockquote::before {
     }
 }
 
+
+
 @media screen and (min-width: 1600px) {
+    #summer {
+        padding-bottom: 55px;
+    }
     #axe {
         padding-bottom: 55px;
     }
@@ -478,21 +487,24 @@ blockquote::before {
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2300px) {
+    #summer {
+        padding-bottom: 150px;
+    }
     #axe {
-        padding-bottom: 110x;
+        padding-bottom: 115px;
     }
     #snowman {
-        padding-bottom: 90px;
+        padding-bottom: 150px;
     }
     #leave {
-        padding-bottom: 0px;
+        padding-bottom: 40px;
     }
     #idban {
-        padding-bottom: 10px;
+        padding-bottom: 95px;
     }
     #watch {
-        padding-bottom: 35px;
+        padding-bottom: 75px;
     }
 }
 
@@ -540,6 +552,9 @@ blockquote::before {
 }
 
 @media screen and (min-width: 2520px) {
+    #summer {
+        padding-bottom: 200px;
+    }
     #axe {
         padding-bottom: 150px;
     }
@@ -612,6 +627,9 @@ blockquote::before {
 }
 
 @media screen and (min-width: 2840px) {
+    #summer {
+        padding-bottom: 275px;
+    }
     #axe {
         padding-bottom: 200px;
     }
@@ -703,6 +721,18 @@ blockquote::before {
     }
     .news {
         margin-left: -72%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .article {
+        margin-left: -2%;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .article {
+        margin-left: 1%;
     }
 }
 
