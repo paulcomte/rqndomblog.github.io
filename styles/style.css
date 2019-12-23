@@ -48,6 +48,11 @@ body, html {
     float: right;
 }
 
+.social img {
+    width: 2vw;
+    height: auto;
+}
+
 .social a {
     padding: 0 12px;
     opacity: .5;
@@ -231,14 +236,14 @@ blockquote::before {
     content: attr(data-count);
     float: right;
     background: grey;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     color: white;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    font-size: 1.3vw;
+    font-size: 19px;
     font-weight: bold;
 }
 
@@ -344,7 +349,7 @@ blockquote::before {
 
 @media screen and (max-width: 1100px) {
     .banner {
-        padding-top: 70vw;
+        padding-top: 75vw;
     }
 
     .container {
@@ -370,9 +375,9 @@ blockquote::before {
 @media screen and (max-width: 1100px) {
 
     .sidebar li a::after {
-        width: 3.5vw;
-        height: 3.5vw;
-        font-size: 2vw;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
     }
 
     .sidebar-title {
@@ -380,20 +385,20 @@ blockquote::before {
     }
 
     .sidebar li {
-        font-size: 4vw;
+        font-size: 4.3vw;
     }
 
     body, html {
-        font-size: 3.3vw;
+        font-size: 3.1vw;
     }
     
     .topbar {
-        font-size: 6.5vw;
+        font-size: 5.8vw;
         position: absolute;
     }
 
     .social img {
-        width: 5.5vw;
+        width: 5.2vw;
         height: auto;
     }
 
@@ -403,12 +408,12 @@ blockquote::before {
     }
 
     .topbar nav {
-        margin-bottom: 15px;
+        margin-bottom: .5vw;
     }
 
     .topbar nav a {
-        display: inline-block;
         white-space: nowrap;
+        display: inline-block;
         margin: 0 20px 5px 20px;
     }
 }
@@ -425,5 +430,35 @@ blockquote::before {
     }
     .main .container {
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .sidebar li a::after {
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .banner {
+        padding-top: 100vw;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .sidebar li a::after {
+        width: 23px;
+        height: 23px;
+        font-size: 14.7px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .sidebar li a::after {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
     }
 }

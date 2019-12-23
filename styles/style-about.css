@@ -22,7 +22,7 @@ body {
 }
 
 body, html {
-    font-size: 1.3vw;
+    font-size: 16px;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -68,6 +68,11 @@ body, html {
 
 .social a:hover {
     opacity: 1;
+}
+
+.social img {
+    width: 2vw;
+    height: auto;
 }
 
 div, body{
@@ -120,11 +125,11 @@ div, body{
 }
 
 .cardfirst div {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .cardsecond div {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .row img{
@@ -177,16 +182,16 @@ div, body{
     }
 
     body, html {
-        font-size: 3.3vw;
+        font-size: 3.1vw;
     }
     
     .topbar {
-        font-size: 6.5vw;
+        font-size: 5.8vw;
         position: absolute;
     }
 
     .social img {
-        width: 5.5vw;
+        width: 5.2vw;
         height: auto;
     }
 
@@ -196,7 +201,7 @@ div, body{
     }
 
     .topbar nav {
-        margin-bottom: 15px;
+        margin-bottom: .5vw;
     }
 
     .topbar nav a {
@@ -214,152 +219,159 @@ div, body{
     }
 }
 
-@media screen and (max-width: 180px) {
-    .about {
-        margin-top: 350%;
-    }
-}
-
-@media screen and (max-width: 230px) {
-    .about {
-        margin-top: 300%
-    }
-
-}
-
-@media screen and (max-width: 270px) {
-    .about {
-        margin-top: 250%;
-    }
-}
-
-@media screen and (max-width: 310px) {
-    .about {
-        margin-top: 225%
-    }
-}
 
 /* Media query with screen with width max of 1100px */
 
 @media screen and (max-height: 2900px) and (max-width: 1100px) {
     .about {
-        margin-top: 83%;
+        margin-top: 123%;
     }
 }
 
-@media screen and (max-height: 2455px) and (max-width: 1100px) {
+@media screen and (max-height: 2720px) and (max-width: 1100px) {
     .about {
-        margin-top: 96%;
+        margin-top: 131%;
     }
 }
 
-@media screen and (max-height: 2165px) and (max-width: 1100px) {
+@media screen and (max-height: 2515px) and (max-width: 1100px) {
     .about {
-        margin-top: 106%;
+        margin-top: 140.3%;
     }
 }
 
-@media screen and (max-height: 1925px) and (max-width: 1100px) {
+@media screen and (max-height: 2320px) and (max-width: 1100px) {
     .about {
-        margin-top: 115%;
+        margin-top: 149.3%;
     }
 }
 
-@media screen and (max-height: 1725px) and (max-width: 1100px) {
+@media screen and (max-height: 2110px) and (max-width: 1100px) {
     .about {
-        margin-top: 126%;
+        margin-top: 159%;
     }
 }
 
-@media screen and (max-height: 1470px) and (max-width: 1100px) {
+@media screen and (max-height: 1885px) and (max-width: 1100px) {
     .about {
-        margin-top: 137%;
+        margin-top: 169%;
     }
 }
 
-@media screen and (max-height: 1235px) and (max-width: 1100px) {
+@media screen and (max-height: 1665px) and (max-width: 1100px) {
     .about {
-        margin-top: 150%;
+        margin-top: 178.5%;
     }
 }
 
-@media screen and (max-height: 940px) and (max-width: 1100px) {
+@media screen and (max-height: 1450px) and (max-width: 1100px) {
     .about {
-        margin-top: 164%;
+        margin-top: 188.3%;
     }
 }
 
-@media screen and (max-height: 625px) and (max-width: 1100px) {
+@media screen and (max-height: 1230px) and (max-width: 1100px) {
     .about {
-        margin-top: 175%;
+        margin-top: 198.3%;
     }
 }
 
-@media screen and (max-height: 400px) and (max-width: 1100px) {
+@media screen and (max-height: 1000px) and (max-width: 1100px) {
     .about {
-        margin-top: 180%;
+        margin-top: 209%;
     }
 }
+
+@media screen and (max-height: 770px) and (max-width: 1100px) {
+    .about {
+        margin-top: 219.3%;
+    }
+}
+
+@media screen and (max-height: 560px) and (max-width: 1100px) {
+    .about {
+        margin-top: 227%;
+    }
+}
+
+@media screen and (max-height: 395px) and (max-width: 1100px) {
+    .about {
+        margin-top: 240%;
+    }
+}
+
 
 /* Media query with screen with width max of 1050px */
 
 @media screen and (max-height: 2900px) and (max-width: 1050px) {
     .about {
-        margin-top: 72%;
+        margin-top: 119%;
     }
 }
 
-@media screen and (max-height: 2565px) and (max-width: 1050px) {
+@media screen and (max-height: 2650px) and (max-width: 1050px) {
     .about {
-        margin-top: 89%;
+        margin-top: 131%;
     }
 }
 
-@media screen and (max-height: 2260px) and (max-width: 1050px) {
+@media screen and (max-height: 2400px) and (max-width: 1050px) {
     .about {
-        margin-top: 102%;
+        margin-top: 143%;
     }
 }
 
-@media screen and (max-height: 1950px) and (max-width: 1050px) {
+@media screen and (max-height: 2160px) and (max-width: 1050px) {
     .about {
-        margin-top: 116%;
+        margin-top: 154%;
     }
 }
 
-@media screen and (max-height: 1655px) and (max-width: 1050px) {
+@media screen and (max-height: 1920px) and (max-width: 1050px) {
     .about {
-        margin-top: 128%;
+        margin-top: 165%;
     }
 }
 
-@media screen and (max-height: 1395px) and (max-width: 1050px) {
+@media screen and (max-height: 1690px) and (max-width: 1050px) {
     .about {
-        margin-top: 139%;
+        margin-top: 176%;
     }
 }
 
-@media screen and (max-height: 1160px) and (max-width: 1050px) {
+@media screen and (max-height: 1465px) and (max-width: 1050px) {
     .about {
-        margin-top: 150%;
+        margin-top: 187%;
     }
 }
 
-@media screen and (max-height: 955px) and (max-width: 1050px) {
+@media screen and (max-height: 1220px) and (max-width: 1050px) {
     .about {
-        margin-top: 167%;
+        margin-top: 198.3%;
     }
 }
 
-@media screen and (max-height: 590px) and (max-width: 1050px) {
+@media screen and (max-height: 1000px) and (max-width: 1050px) {
     .about {
-        margin-top: 180%;
+        margin-top: 209.3%;
     }
 }
 
-@media screen and (max-height: 315px) and (max-width: 1050px) {
+@media screen and (max-height: 770px) and (max-width: 1050px) {
     .about {
-        margin-top: 184%;
+        margin-top: 220%;
+    }
+}
+
+@media screen and (max-height: 520px) and (max-width: 1050px) {
+    .about {
+        margin-top: 228%;
+    }
+}
+
+@media screen and (max-height: 360px) and (max-width: 1050px) {
+    .about {
+        margin-top: 234%;
     }
 }
 
@@ -367,61 +379,73 @@ div, body{
 
 @media screen and (max-height: 2900px) and (max-width: 950px) {
     .about {
-        margin-top: 63%;
+        margin-top: 110%;
     }
 }
 
-@media screen and (max-height: 2590px) and (max-width: 950px) {
+@media screen and (max-height: 2570px) and (max-width: 950px) {
     .about {
-        margin-top: 80%;
+        margin-top: 127%;
     }
 }
 
-@media screen and (max-height: 2280px) and (max-width: 950px) {
+@media screen and (max-height: 2275px) and (max-width: 950px) {
     .about {
-        margin-top: 98%;
+        margin-top: 140%;
     }
 }
 
-@media screen and (max-height: 1930px) and (max-width: 950px) {
+@media screen and (max-height: 2040px) and (max-width: 950px) {
     .about {
-        margin-top: 115%;
+        margin-top: 152%;
     }
 }
 
-@media screen and (max-height: 1605px) and (max-width: 950px) {
+@media screen and (max-height: 1820px) and (max-width: 950px) {
     .about {
-        margin-top: 128%;
+        margin-top: 164.3%;
     }
 }
 
-@media screen and (max-height: 1350px) and (max-width: 950px) {
+@media screen and (max-height: 1590px) and (max-width: 950px) {
     .about {
-        margin-top: 143%;
+        margin-top: 175.8%;
     }
 }
 
-@media screen and (max-height: 1030px) and (max-width: 950px) {
+@media screen and (max-height: 1370px) and (max-width: 950px) {
     .about {
-        margin-top: 157%;
+        margin-top: 187%;
     }
 }
 
-@media screen and (max-height: 800px) and (max-width: 950px) {
+@media screen and (max-height: 1135px) and (max-width: 950px) {
     .about {
-        margin-top: 170%;
+        margin-top: 199%;
     }
 }
 
-@media screen and (max-height: 550px) and (max-width: 950px) {
+@media screen and (max-height: 915px) and (max-width: 950px) {
     .about {
-        margin-top: 185%;
+        margin-top: 211%;
     }
 }
 
-@media screen and (max-height: 270px) and (max-width: 950px) {
+@media screen and (max-height: 715px) and (max-width: 950px) {
     .about {
-        margin-top: 195%;
+        margin-top: 222%;
+    }
+}
+
+@media screen and (max-height: 470px) and (max-width: 950px) {
+    .about {
+        margin-top: 226%;
+    }
+}
+
+@media screen and (max-height: 350px) and (max-width: 950px) {
+    .about {
+        margin-top: 234%;
     }
 }
 
@@ -429,355 +453,343 @@ div, body{
 
 @media screen and (max-height: 2900px) and (max-width: 800px) {
     .about {
-        margin-top: 40%;
+        margin-top: 80%;
     }
 }
 
-@media screen and (max-height: 2720px) and (max-width: 800px) {
+@media screen and (max-height: 2685px) and (max-width: 800px) {
     .about {
-        margin-top: 58%;
+        margin-top: 92%;
     }
 }
 
-@media screen and (max-height: 2410px) and (max-width: 800px) {
-    .about {
-        margin-top: 72%;
-    }
-}
-
-@media screen and (max-height: 2185px) and (max-width: 800px) {
-    .about {
-        margin-top: 90%;
-    }
-}
-
-@media screen and (max-height: 1910px) and (max-width: 800px) {
-    .about {
-        margin-top: 108%;
-    }
-}
-
-@media screen and (max-height: 1635px) and (max-width: 800px) {
-    .about {
-        margin-top: 123%;
-    }
-}
-
-@media screen and (max-height: 1380px) and (max-width: 800px) {
-    .about {
-        margin-top: 140%;
-    }
-}
-
-@media screen and (max-height: 1110px) and (max-width: 800px) {
-    .about {
-        margin-top: 160%;
-    }
-}
-
-@media screen and (max-height: 805px) and (max-width: 800px) {
-    .about {
-        margin-top: 175%;
-    }
-}
-
-@media screen and (max-height: 590px) and (max-width: 800px) {
-    .about {
-        margin-top: 190%;
-    }
-}
-
-@media screen and (max-height: 340px) and (max-width: 800px) {
-    .about {
-        margin-top: 200%;
-    }
-}
-
-/* Media query with screen with width max of 725px */
-
-@media screen and (max-height: 2900px) and (max-width: 725px) {
-    .about {
-        margin-top: 25%;
-    }
-}
-
-@media screen and (max-height: 2760px) and (max-width: 725px) {
-    .about {
-        margin-top: 38%;
-    }
-}
-
-@media screen and (max-height: 2545px) and (max-width: 725px) {
-    .about {
-        margin-top: 48%;
-    }
-}
-
-@media screen and (max-height: 2405px) and (max-width: 725px) {
-    .about {
-        margin-top: 63%;
-    }
-}
-
-@media screen and (max-height: 2210px) and (max-width: 725px) {
-    .about {
-        margin-top: 77%;
-    }
-}
-
-@media screen and (max-height: 1980px) and (max-width: 725px) {
-    .about {
-        margin-top: 89%;
-    }
-}
-
-@media screen and (max-height: 1830px) and (max-width: 725px) {
+@media screen and (max-height: 2500px) and (max-width: 800px) {
     .about {
         margin-top: 103%;
     }
 }
 
-@media screen and (max-height: 1625px) and (max-width: 725px) {
+@media screen and (max-height: 2310px) and (max-width: 800px) {
+    .about {
+        margin-top: 115.5%;
+    }
+}
+
+@media screen and (max-height: 2125px) and (max-width: 800px) {
+    .about {
+        margin-top: 126.3%;
+    }
+}
+
+@media screen and (max-height: 1915px) and (max-width: 800px) {
+    .about {
+        margin-top: 139.3%;
+    }
+}
+
+@media screen and (max-height: 1730px) and (max-width: 800px) {
+    .about {
+        margin-top: 151.3%;
+    }
+}
+
+@media screen and (max-height: 1530px) and (max-width: 800px) {
+    .about {
+        margin-top: 163.8%;
+    }
+}
+
+@media screen and (max-height: 1315px) and (max-width: 800px) {
+    .about {
+        margin-top: 177%;
+    }
+}
+
+@media screen and (max-height: 1120px) and (max-width: 800px) {
+    .about {
+        margin-top: 189.5%;
+    }
+}
+
+@media screen and (max-height: 920px) and (max-width: 800px) {
+    .about {
+        margin-top: 202%;
+    }
+}
+
+@media screen and (max-height: 725px) and (max-width: 800px) {
+    .about {
+        margin-top: 214%;
+    }
+}
+
+@media screen and (max-height: 540px) and (max-width: 800px) {
+    .about {
+        margin-top: 224%;
+    }
+}
+
+@media screen and (max-height: 360px) and (max-width: 800px) {
+    .about {
+        margin-top: 227%;
+    }
+}
+
+
+/* Media query with screen with width max of 725px */
+
+@media screen and (max-height: 2900px) and (max-width: 725px) {
+    .about {
+        margin-top: 65%;
+    }
+}
+
+
+@media screen and (max-height: 2650px) and (max-width: 725px) {
+    .about {
+        margin-top: 82%;
+    }
+}
+
+
+@media screen and (max-height: 2405px) and (max-width: 725px) {
+    .about {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-height: 2160px) and (max-width: 725px) {
     .about {
         margin-top: 116%;
     }
 }
 
-@media screen and (max-height: 1430px) and (max-width: 725px) {
+@media screen and (max-height: 1925px) and (max-width: 725px) {
     .about {
         margin-top: 133%;
     }
 }
 
-@media screen and (max-height: 1170px) and (max-width: 725px) {
-    .about {
-        margin-top: 147%;
-    }
-}
-
-@media screen and (max-height: 970px) and (max-width: 725px) {
-    .about {
-        margin-top: 160%;
-    }
-}
-
-@media screen and (max-height: 790px) and (max-width: 725px) {
-    .about {
-        margin-top: 176%;
-    }
-}
-
-@media screen and (max-height: 565px) and (max-width: 725px) {
-    .about {
-        margin-top: 186%;
-    }
-}
-
-@media screen and (max-height: 395px) and (max-width: 725px) {
-    .about {
-        margin-top: 190%;
-    }
-}
-
-/* Media query with screen with width max of 560px */
-
-@media screen and (max-height: 2900px) and (max-width: 560px) {
-    .about {
-        margin-top: -15%;
-    }
-}
-
-@media screen and (max-height: 2760px) and (max-width: 560px) {
-    .about {
-        margin-top: 0%;
-    }
-}
-
-@media screen and (max-height: 2600px) and (max-width: 560px) {
-    .about {
-        margin-top: 15%;
-    }
-}
-
-@media screen and (max-height: 2430px) and (max-width: 560px) {
-    .about {
-        margin-top: 30%;
-    }
-}
-
-@media screen and (max-height: 2250px) and (max-width: 560px) {
-    .about {
-        margin-top: 45%;
-    }
-}
-
-@media screen and (max-height: 2060px) and (max-width: 560px) {
-    .about {
-        margin-top: 70%;
-    }
-}
-
-@media screen and (max-height: 1765px) and (max-width: 560px) {
-    .about {
-        margin-top: 86%;
-    }
-}
-
-@media screen and (max-height: 1610px) and (max-width: 560px) {
-    .about {
-        margin-top: 101%;
-    }
-}
-
-@media screen and (max-height: 1440px) and (max-width: 560px) {
-    .about {
-        margin-top: 117%;
-    }
-}
-
-@media screen and (max-height: 1250px) and (max-width: 560px) {
-    .about {
-        margin-top: 137%;
-    }
-}
-
-@media screen and (max-height: 1070px) and (max-width: 560px) {
-    .about {
-        margin-top: 151%;
-    }
-}
-
-@media screen and (max-height: 890px) and (max-width: 560px) {
-    .about {
-        margin-top: 169%;
-    }
-}
-
-@media screen and (max-height: 685px) and (max-width: 560px) {
-    .about {
-        margin-top: 184%;
-    }
-}
-
-@media screen and (max-height: 520px) and (max-width: 560px) {
-    .about {
-        margin-top: 199%;
-    }
-}
-
-@media screen and (max-height: 370px) and (max-width: 560px) {
-    .about {
-        margin-top: 210%;
-    }
-}
-
-/* Media query for screen with width max of 425px */
-
-@media screen and (max-height: 2900px) and (max-width: 425px) {
-    .about {
-        margin-top: -52%;
-    }
-}
-
-@media screen and (max-height: 2730px) and (max-width: 425px) {
-    .about {
-        margin-top: -30%;
-    }
-}
-
-@media screen and (max-height: 2560px) and (max-width: 425px) {
-    .about {
-        margin-top: -16%;
-    }
-}
-
-@media screen and (max-height: 2415px) and (max-width: 425px) {
-    .about {
-        margin-top: 0%;
-    }
-}
-
-@media screen and (max-height: 2265px) and (max-width: 425px) {
-    .about {
-        margin-top: 16%;
-    }
-}
-
-@media screen and (max-height: 2135px) and (max-width: 425px) {
-    .about {
-        margin-top: 30%;
-    }
-}
-
-@media screen and (max-height: 2010px) and (max-width: 425px) {
-    .about {
-        margin-top: 53%;
-    }
-}
-
-@media screen and (max-height: 1850px) and (max-width: 425px) {
-    .about {
-        margin-top: 70%;
-    }
-}
-
-@media screen and (max-height: 1695px) and (max-width: 425px) {
-    .about {
-        margin-top: 89%;
-    }
-}
-
-@media screen and (max-height: 1520px) and (max-width: 425px) {
-    .about {
-        margin-top: 102%;
-    }
-}
-
-@media screen and (max-height: 1410px) and (max-width: 425px) {
-    .about {
-        margin-top: 117%;
-    }
-}
-
-@media screen and (max-height: 1285px) and (max-width: 425px) {
-    .about {
-        margin-top: 134%;
-    }
-}
-
-@media screen and (max-height: 1135px) and (max-width: 425px) {
+@media screen and (max-height: 1670px) and (max-width: 725px) {
     .about {
         margin-top: 150%;
     }
 }
 
-@media screen and (max-height: 995px) and (max-width: 425px) {
+@media screen and (max-height: 1400px) and (max-width: 725px) {
     .about {
-        margin-top: 170%;
+        margin-top: 169%;
     }
 }
 
-@media screen and (max-height: 825px) and (max-width: 425px) {
+@media screen and (max-height: 1135px) and (max-width: 725px) {
     .about {
-        margin-top: 190%;
+        margin-top: 188%;
     }
 }
 
-@media screen and (max-height: 650px) and (max-width: 425px) {
+@media screen and (max-height: 875px) and (max-width: 725px) {
     .about {
-        margin-top: 210%;
+        margin-top: 205%;
     }
 }
 
-@media screen and (max-height: 495px) and (max-width: 425px) {
+@media screen and (max-height: 630px) and (max-width: 725px) {
+    .about {
+        margin-top: 212%;
+    }
+}
+
+@media screen and (max-height: 475px) and (max-width: 725px) {
+    .about {
+        margin-top: 223%;
+    }
+}
+
+@media screen and (max-height: 370px) and (max-width: 725px) {
+    .about {
+        margin-top: 235%;
+    }
+}
+
+
+/* Media query with screen with width max of 560px */
+
+@media screen and (max-height: 2900px) and (max-width: 560px) {
+    .about {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-height: 2740px) and (max-width: 560px) {
+    .about {
+        margin-top: 29%;
+    }
+}
+
+@media screen and (max-height: 2570px) and (max-width: 560px) {
+    .about {
+        margin-top: 44%;
+    }
+}
+
+@media screen and (max-height: 2400px) and (max-width: 560px) {
+    .about {
+        margin-top: 59%;
+    }
+}
+
+@media screen and (max-height: 2240px) and (max-width: 560px) {
+    .about {
+        margin-top: 73.3%;
+    }
+}
+
+@media screen and (max-height: 2055px) and (max-width: 560px) {
+    .about {
+        margin-top: 90%;
+    }
+}
+
+@media screen and (max-height: 1865px) and (max-width: 560px) {
+    .about {
+        margin-top: 106.6%;
+    }
+}
+
+@media screen and (max-height: 1690px) and (max-width: 560px) {
+    .about {
+        margin-top: 122.3%;
+    }
+}
+
+@media screen and (max-height: 1500px) and (max-width: 560px) {
+    .about {
+        margin-top: 139.3%;
+    }
+}
+
+@media screen and (max-height: 1310px) and (max-width: 560px) {
+    .about {
+        margin-top: 156.3%;
+    }
+}
+
+@media screen and (max-height: 1125px) and (max-width: 560px) {
+    .about {
+        margin-top: 172.8%;
+    }
+}
+
+@media screen and (max-height: 940px) and (max-width: 560px) {
+    .about {
+        margin-top: 189.3%;
+    }
+}
+
+@media screen and (max-height: 750px) and (max-width: 560px) {
+    .about {
+        margin-top: 206.1%;
+    }
+}
+
+@media screen and (max-height: 560px) and (max-width: 560px) {
+    .about {
+        margin-top: 215%;
+    }
+}
+
+@media screen and (max-height: 435px) and (max-width: 560px) {
     .about {
         margin-top: 230%;
     }
 }
 
-@media screen and (max-height: 345px) and (max-width: 425px) {
+
+/* Media query for screen with width max of 425px */
+
+@media screen and (max-height: 2900px) and (max-width: 425px) {
     .about {
-        margin-top: 231%;
+        margin-top: -58.5%;
+    }
+}
+
+@media screen and (max-height: 2705px) and (max-width: 425px) {
+    .about {
+        margin-top: -35.6%;
+    }
+}
+
+@media screen and (max-height: 2510px) and (max-width: 425px) {
+    .about {
+        margin-top: -12.8%;
+    }
+}
+
+@media screen and (max-height: 2315px) and (max-width: 425px) {
+    .about {
+        margin-top: 10.4%;
+    }
+}
+
+@media screen and (max-height: 2115px) and (max-width: 425px) {
+    .about {
+        margin-top: 34%;
+    }
+}
+
+
+@media screen and (max-height: 1920px) and (max-width: 425px) {
+    .about {
+        margin-top: 56.7%;
+    }
+}
+
+@media screen and (max-height: 1725px) and (max-width: 425px) {
+    .about {
+        margin-top: 79.6%;
+    }
+}
+
+@media screen and (max-height: 1530px) and (max-width: 425px) {
+    .about {
+        margin-top: 102.4%;
+    }
+}
+
+@media screen and (max-height: 1335px) and (max-width: 425px) {
+    .about {
+        margin-top: 125.3%;
+    }
+}
+
+@media screen and (max-height: 1140px) and (max-width: 425px) {
+    .about {
+        margin-top: 148.4%;
+    }
+}
+
+@media screen and (max-height: 945px) and (max-width: 425px) {
+    .about {
+        margin-top: 171.1%;
+    }
+}
+
+@media screen and (max-height: 750px) and (max-width: 425px) {
+    .about {
+        margin-top: 194.4%;
+    }
+}
+
+@media screen and (max-height: 560px) and (max-width: 425px) {
+    .about {
+        margin-top: 210%;
+    }
+}
+
+@media screen and (max-height: 410px) and (max-width: 425px) {
+    .about {
+        margin-top: 220%;
     }
 }
 
@@ -785,134 +797,116 @@ div, body{
 
 @media screen and (max-height: 2900px) and (max-width: 350px) {
     .about {
-        margin-top: -100%;
+        margin-top: -138%;
     }
 }
 
 @media screen and (max-height: 2730px) and (max-width: 350px) {
     .about {
-        margin-top: -80%;
+        margin-top: -114%;
     }
 }
 
-@media screen and (max-height: 2595px) and (max-width: 350px) {
+@media screen and (max-height: 2565px) and (max-width: 350px) {
     .about {
-        margin-top: -57%;
+        margin-top: -90%;
     }
 }
 
-@media screen and (max-height: 2435px) and (max-width: 350px) {
+@media screen and (max-height: 2400px) and (max-width: 350px) {
     .about {
-        margin-top: -32%;
+        margin-top: -66.8%;
     }
 }
 
-@media screen and (max-height: 2380px) and (max-width: 350px) {
+@media screen and (max-height: 2240px) and (max-width: 350px) {
     .about {
-        margin-top: -30%;
+        margin-top: -44%;
     }
 }
 
-
-@media screen and (max-height: 2230px) and (max-width: 350px) {
+@media screen and (max-height: 2075px) and (max-width: 350px) {
     .about {
-        margin-top: -9%;
+        margin-top: -21%;
     }
 }
 
-@media screen and (max-height: 2105px) and (max-width: 350px) {
+@media screen and (max-height: 1920px) and (max-width: 350px) {
     .about {
-        margin-top: 9%;
+        margin-top: 1.4%;
     }
 }
 
-@media screen and (max-height: 2000px) and (max-width: 350px) {
+@media screen and (max-height: 1760px) and (max-width: 350px) {
     .about {
-        margin-top: 23%;
+        margin-top: 22.5%;
     }
 }
 
-@media screen and (max-height: 1875px) and (max-width: 350px) {
+@media screen and (max-height: 1615px) and (max-width: 350px) {
     .about {
-        margin-top: 40%;
+        margin-top: 43%;
     }
 }
 
-@media screen and (max-height: 1750px) and (max-width: 350px) {
+
+@media screen and (max-height: 1470px) and (max-width: 350px) {
     .about {
-        margin-top: 73%;
+        margin-top: 64.2%;
     }
 }
 
-@media screen and (max-height: 1535px) and (max-width: 350px) {
+
+@media screen and (max-height: 1320px) and (max-width: 350px) {
     .about {
-        margin-top: 91%;
+        margin-top: 85.6%;
     }
 }
 
-@media screen and (max-height: 1425px) and (max-width: 350px) {
+
+@media screen and (max-height: 1170px) and (max-width: 350px) {
     .about {
         margin-top: 108%;
     }
 }
 
-@media screen and (max-height: 1275px) and (max-width: 350px) {
+
+@media screen and (max-height: 1015px) and (max-width: 350px) {
     .about {
-        margin-top: 126%;
+        margin-top: 128%;
     }
 }
 
-@media screen and (max-height: 1150px) and (max-width: 350px) {
-    .about {
-        margin-top: 143%;
-    }
-}
 
-@media screen and (max-height: 1115px) and (max-width: 350px) {
+@media screen and (max-height: 870px) and (max-width: 350px) {
     .about {
         margin-top: 150%;
     }
 }
 
-@media screen and (max-height: 955px) and (max-width: 350px) {
+
+@media screen and (max-height: 725px) and (max-width: 350px) {
     .about {
-        margin-top: 165%;
+        margin-top: 172%;
     }
 }
 
-@media screen and (max-height: 870px) and (max-width: 350px) {
+
+@media screen and (max-height: 590px) and (max-width: 350px) {
     .about {
-        margin-top: 180%;
+        margin-top: 190%;
     }
 }
 
-@media screen and (max-height: 785px) and (max-width: 350px) {
+@media screen and (max-height: 460px) and (max-width: 350px) {
     .about {
-        margin-top: 195%;
+        margin-top: 210%;
     }
 }
 
-@media screen and (max-height: 660px) and (max-width: 350px) {
-    .about {
-        margin-top: 206%;
-    }
-}
 
-@media screen and (max-height: 585px) and (max-width: 350px) {
+@media screen and (max-height: 310px) and (max-width: 350px) {
     .about {
-        margin-top: 221%;
+        margin-top: 220%;
     }
 }
-
-@media screen and (max-height: 480px) and (max-width: 350px) {
-    .about {
-        margin-top: 238%;
-    }
-}
-
-@media screen and (max-height: 400px) and (max-width: 350px) {
-    .about {
-        margin-top: 249%;
-    }
-}
- 

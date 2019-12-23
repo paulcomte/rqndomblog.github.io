@@ -57,6 +57,11 @@ body, html {
     opacity: 1;
 }
 
+.social img {
+    width: 2vw;
+    height: auto;
+}
+
 .banner {
     height: 427px;
     background: no-repeat center center / cover url("../images/wallpaper.jpg");
@@ -277,7 +282,7 @@ blockquote::before {
     position: absolute;
     top: -1.5px;
     left: 5px;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.4rem;
     z-index: 9;
 }
@@ -288,7 +293,7 @@ blockquote::after {
     position: absolute;
     bottom: -26px;
     right: 5px;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.4rem;
 }
 
@@ -296,14 +301,14 @@ blockquote::after {
     content: attr(data-count);
     float: right;
     background: grey;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     color: white;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    font-size: 1.3vw;
+            font-size: 19px;
     font-weight: bold;
 }
 
@@ -344,10 +349,11 @@ blockquote::after {
 }
 
 .quote {
-    text-align: right;
-    margin-right: 13%;
+    padding-left: 7%;
+    margin-top: -2.1%;
+    text-align: left;
     font-style: italic;
-    font-size: 14px;
+    font-size: .7rem;
 }
 
 cap {
@@ -497,7 +503,7 @@ cap {
         left: 0;
     }
     .leftbar {
-        margin-left: 30%;
+        margin-left: 30vw;
         float: none;
     }
     .article {
@@ -545,7 +551,7 @@ cap {
 
 @media screen and (max-width: 1100px) {
     .banner {
-        padding-top: 70vw;
+        padding-top: 75vw;
     }
 
     .container {
@@ -573,16 +579,16 @@ cap {
     }
 
     body, html {
-        font-size: 3.3vw;
+        font-size: 3.1vw;
     }
     
     .topbar {
-        font-size: 6.5vw;
+        font-size: 5.8vw;
         position: absolute;
     }
 
     .social img {
-        width: 5.5vw;
+        width: 5.2vw;
         height: auto;
     }
 
@@ -602,9 +608,23 @@ cap {
     }
 }
 
+@media screen and (max-width: 725px) {
+    .sidebar li a::after {
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 685px) {
     .leftbar {
         margin-left: 24%
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .banner {
+        padding-top: 100vw;
     }
 }
 
@@ -612,11 +632,22 @@ cap {
     .leftbar {
         margin-left: 23%;
     }
+    .quote {
+        padding-left: 16%;
+    }
 }
 
 @media screen and (max-width: 485px) {
     .leftbar {
         margin-left: 19%
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .sidebar li a::after {
+        width: 23px;
+        height: 23px;
+        font-size: 14.7px;
     }
 }
 
@@ -632,6 +663,13 @@ cap {
     }
 }
 
+@media screen and (max-width: 315px) {
+    .sidebar li a::after {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 310px) {
     .leftbar {
         margin-left: 0%;
