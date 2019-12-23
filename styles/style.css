@@ -253,6 +253,10 @@ blockquote::before {
     content: none;
 }
 
+#made, #blog {
+    padding-bottom: 10px;
+}
+
 
 .article-img img{
     width: 100%;
@@ -344,6 +348,361 @@ blockquote::before {
                 -moz-transform:scale(1.1) rotate(10deg);
                   -o-transform:scale(1.1) rotate(10deg);
              transform:scale(1.1) rotate(10deg);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #axe {
+        padding-bottom: 55px;
+    }
+    #snowman {
+        padding-bottom: 85px;
+    }
+    #leave {
+        padding-bottom: 0px;
+    }
+    #idban {
+        padding-bottom: 10px;
+    }
+    #watch {
+        padding-bottom: 75px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .news {
+        margin-left: 25%;
+    }
+    .article {
+        margin-left: -10%;
+        padding-left: 425px;
+    }
+    .article-img img {
+        width: 400px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    #ski {
+        padding-bottom: 90px;
+    }
+    #leaving {
+        padding-bottom: 0px;
+    }
+    #sardoche {
+        padding-bottom: 12px;
+    }
+    #time {
+        padding-bottom: 55px;
+    }
+    #made {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1780px) {
+    .news {
+        margin-left: 12.5%;
+    }
+    .article {
+        margin-left: -20%;
+    }
+}
+
+
+@media screen and (min-width: 1950px) {
+    .article {
+        margin-left: -28%;
+    }
+    .news {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .article {
+        margin-left: -37%;
+    }
+    .news {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 2180px) {
+    .sidebar li a::after {
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .article {
+        margin-left: -42%;
+    }
+    .news {
+        margin-left: -7%;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .article {
+        margin-left: -47%;
+        padding-left: 650px;
+    }
+    .news {
+        margin-left: -16%;
+    }
+
+    .article-img img {
+        width: 600px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    #ski {
+        padding-bottom: 125px;
+    }
+    #leaving {
+        padding-bottom: 15px;
+    }
+    #sardoche {
+        padding-bottom: 60px;
+    }
+    #time {
+        padding-bottom: 90px;
+    }
+    #made {
+        padding-bottom: 185px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #axe {
+        padding-bottom: 110x;
+    }
+    #snowman {
+        padding-bottom: 90px;
+    }
+    #leave {
+        padding-bottom: 0px;
+    }
+    #idban {
+        padding-bottom: 10px;
+    }
+    #watch {
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 2430px) {
+    .article {
+        margin-left: -54%;
+    }
+    .news {
+        margin-left: -24%;
+    }
+}
+
+@media screen and (min-width: 2520px) {
+    .article {
+        margin-left: -60%;
+        padding-left: 675px;
+        margin-right: -200px;
+    }
+    
+    .news {
+        margin-left: -30%;
+    }
+
+    .article-img img {
+        width: 620px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    #ski {
+        padding-bottom: 190px;
+    }
+    #leaving {
+        padding-bottom: 60px;
+    }
+    #sardoche {
+        padding-bottom: 110px;
+    }
+    #time {
+        padding-bottom: 150px;
+    }
+    #made {
+        padding-bottom: 250px;
+    }
+}
+
+@media screen and (min-width: 2520px) {
+    #axe {
+        padding-bottom: 150px;
+    }
+    #snowman {
+        padding-bottom: 200px;
+    }
+    #leave {
+        padding-bottom: 55px;
+    }
+    #idban {
+        padding-bottom: 110px;
+    }
+    #watch {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 2650px) {
+    .article {
+        margin-left: -66%;
+    }
+    .news {
+        margin-left: -36%;
+    }
+}
+
+@media screen and (min-width: 2720px) {
+    .sidebar {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 2750px) {
+    .article {
+        margin-left: -70%;
+    }
+    .news {
+        margin-left: -39%;
+    }
+}
+
+@media screen and (min-width: 2840px) {
+    .article {
+        margin-left: -76%;
+        padding-left: 825px;
+        margin-right: -500px;
+    }
+    .news {
+        margin-left: -42%;
+    }
+    .article-img img {
+        width: 750px;
+        height: auto;
+    }
+    #ski {
+        padding-bottom: 250px;
+    }
+    #leaving {
+        padding-bottom: 100px;
+    }
+    #sardoche {
+        padding-bottom: 250px;
+    }
+    #time {
+        padding-bottom: 195px;
+    }
+    #made {
+        padding-bottom: 350px;
+    }
+}
+
+@media screen and (min-width: 2840px) {
+    #axe {
+        padding-bottom: 200px;
+    }
+    #snowman {
+        padding-bottom: 260px;
+    }
+    #leave {
+        padding-bottom: 105px;
+    }
+    #idban {
+        padding-bottom: 250px;
+    }
+    #watch {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .article {
+        margin-left: -82%;
+    }
+    .news {
+        margin-left: -50%;
+    }
+}
+
+@media screen and (min-width: 3110px) {
+    .sidebar {
+        width: 512px;
+    }
+}
+
+@media screen and (min-width: 3180px) {
+    .article {
+        margin-left: -88%;
+    }
+    .news {
+        margin-left: -56%;
+    }
+}
+
+@media screen and (min-width: 3300px) {
+    .sidebar li a::after {
+        width: 37px;
+        height: 37px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 3350px) {
+    .article {
+        margin-left: -96%;
+    }
+    .news {
+        margin-left: -62%;
+    }
+}
+
+@media screen and (min-width: 3490px) {
+    .sidebar {
+        width: 624px;
+    }
+    .article {
+        margin-right: -750px;
+    }
+}
+
+@media screen and (min-width: 3570px) {
+    .article {
+        margin-left: -103%;
+    }
+    .news {
+        margin-left: -66%;
+    }
+}
+
+@media screen and (min-width: 3750px) {
+    .article {
+        margin-left: -112%;
+    }
+    .news {
+        margin-left: -70%;
+    }
+}
+
+@media screen and (min-width: 3800px) {
+    .article {
+        margin-left: -114%;
+    }
+    .news {
+        margin-left: -72%;
     }
 }
 

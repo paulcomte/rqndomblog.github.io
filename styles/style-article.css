@@ -468,6 +468,218 @@ cap {
     }
 }
 
+@media screen and (min-width: 1630px) {
+    .web-article {
+        margin-left: -40px;
+        margin-right: -115px;
+    }
+    .banner {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    .web-article {
+        margin-left: -70px;
+        margin-right: -160px;
+    }
+}
+
+@media screen and (min-width: 1780px) {
+    .web-article {
+        margin-left: -100px;
+        margin-right: -190px;
+    }
+    .banner-advertisement {
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .web-article {
+        margin-left: -140px;
+        margin-right: -230px;
+    }
+}
+
+@media screen and (min-width: 1930px) {
+    .web-article {
+        margin-left: -180px;
+        margin-right: -250px;
+    }
+}
+
+@media screen and (min-width: 1980px) {
+    .web-article {
+        margin-left: -210px;
+    }
+}
+
+@media screen and (min-width: 2020px) {
+    .web-article {
+        margin-right: -55%;
+        margin-left: -43%;
+    }
+}
+
+@media screen and (min-width: 2110px) {
+    .web-article {
+        margin-right: -60%;
+        margin-left: -47%;
+    }
+}
+
+@media screen and (min-width: 2180px) {
+    .web-article {
+        margin-right: -70%;
+        margin-left: -53%;
+    }
+    .sidebar li a::after {
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 2235px) {
+    .web-article {
+        margin-right: -72%;
+        margin-left: -58%;
+    }
+}
+
+@media screen and (min-width: 2280px) {
+    .web-article {
+        margin-right: -67%;
+        margin-left: -65%;
+    }
+}
+
+@media screen and (min-width: 2370px) {
+    .web-article {
+        margin-left: -70%;
+    }
+}
+
+@media screen and (min-width: 2450px) {
+    .web-article {
+        margin-left: -77%;
+        margin-right: -85%;
+    }
+}
+
+@media screen and (min-width: 2550px) {
+    .web-article {
+        margin-left: -84%;
+        margin-right: -90%;
+    }
+}
+
+@media screen and (min-width: 2550px) {
+    .web-article {
+        margin-left: -90%;
+        margin-right: -95%;
+    }
+}
+
+@media screen and (min-width: 2650px) {
+    .web-article {
+        margin-left: -98%;
+        margin-right: -100%;
+    }
+}
+
+@media screen and (min-width: 2720px) {
+    .web-article {
+        margin-left: -85%;
+    }
+    .banner-advertisement {
+        width: 450px;
+    }
+    .sidebar {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 2720px) {
+    .web-article {
+        margin-left: -85%;
+    }
+}
+
+@media screen and (min-width: 2830px) {
+    .web-article {
+        margin-left: -93%;
+        margin-right: -110%;
+    }
+}
+
+@media screen and (min-width: 3010px) {
+    .web-article {
+        margin-left: -103%;
+        margin-right: -115%;
+    }
+}
+
+@media screen and (min-width: 3110px) {
+    .web-article {
+        margin-left: -98%;
+    }
+    .banner-advertisement {
+        width: 512px;
+    }
+    .sidebar {
+        width: 512px;
+    }
+}
+
+@media screen and (min-width: 3160px) {
+    .web-article {
+        margin-left: -106%;
+        margin-right: -130%;
+    }
+}
+
+@media screen and (min-width: 3300px) {
+    .web-article {
+        margin-left: -113%;
+        margin-right: -145%;
+    }
+    .sidebar li a::after {
+        width: 37px;
+        height: 37px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 3490px) {
+    .web-article {
+        margin-left: -100%;
+        margin-right: -135%;
+    }
+    .banner-advertisement {
+        width: 624px;
+    }
+    .sidebar {
+        width: 624px;
+    }
+}
+
+@media screen and (min-width: 3300px) {
+    .web-article {
+        margin-left: -114%;
+        margin-right: -140%;
+    }
+}
+
+
+@media screen and (min-width: 3800px) {
+    .web-article {
+        margin-left: -130%;
+        margin-right: -170%;
+    }
+}
+
 @media screen and (max-width: 1450px) {
     .banner-advertisement {
         width: 130%;
