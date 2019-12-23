@@ -253,8 +253,8 @@ blockquote::before {
     content: none;
 }
 
-#made, #blog {
-    padding-bottom: 10px;
+#made {
+    padding-bottom: 50px;
 }
 
 
